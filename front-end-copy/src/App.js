@@ -12,7 +12,6 @@ function App() {
   const value = useSelector((state) => state.primary); 
 
   return (
-    <div class={`color-${value}`}>
       <BrowserRouter> 
         <Routes> 
           <Route path="/" element={<Navbar />} >
@@ -22,7 +21,6 @@ function App() {
           
         </Routes>
       </BrowserRouter>
-		</div>
 
 
   );

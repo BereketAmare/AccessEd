@@ -1,8 +1,12 @@
 import React from 'react';
+import { useSelector } from 'react-redux';
 
 function About() {
+  const value = useSelector((state) => state.primary); 
+  const value2 = useSelector((state) => state.secondary); 
+  
   return (
-    <div className="bg-gray-100 py-12">
+    <div className="bg-gray-200 py-12">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <h1 className="text-3xl font-extrabold text-gray-900 text-center mb-4">
           About Us

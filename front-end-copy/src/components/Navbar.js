@@ -66,7 +66,8 @@ function Navbar() {
   </div>
 </nav>  
     </div>
-    <Outlet />
+      <Outlet />
+
     </Box>
   );
 }
